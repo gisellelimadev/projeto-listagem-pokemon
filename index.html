@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Listagem Pokémon</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
+
+		<link rel="icon" type="image/png" href="./src/imagens/pokeball.png"/>
+
+		<link rel="stylesheet" href="./src/css/estilos.css"/>
+		<link rel="stylesheet" href="./src/css/reset.css"/>
+		<link rel="stylesheet" href="./src/css/scrollbar.css"/>
+
+	</head>
+	<body>
+		<header>
+			<a href="#">
+				<!-- <img src="imagens/pokeball.png" alt="pokebola" class="logo" /> -->
+			</a>
+			<button id="botao-alterar-tema">
+				<img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao" />
+			</button>
+		</header>
+		<main>
+			<ul class="listagem-pokemon">
+				<li class="cartao-pokemon" id="evee">
+					<div class="informacoes">
+						<span>Evee</span>
+						<span>#001</span>
+					</div>
+
+					<img src="./src/imagens/evee.gif" alt="evee" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo normal">Normal</li>
+					</ul>
+
+					<p class="descricao">Eevee é conhecido por sua cadeia evolutiva única, contando com oito possibilidades diferentes de evolução..</p>
+				</li>
+
+				<li class="cartao-pokemon" id="vaporeon">
+					<div class="informacoes">
+						<span>Vaporeon</span>
+						<span>#002</span>
+					</div>
+
+					<img src="./src/imagens/vaporeon.gif" alt="vaporeon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo agua">Water</li>
+					</ul>
+
+					<p class="descricao"> Vaporeon passou por uma mutação espontânea e desenvolveu barbatanas e guelras que permitem que viva embaixo d'água.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="electric">
+					<div class="informacoes">
+						<span>Jolteon</span>
+						<span>#003</span>
+					</div>
+
+					<img src="./src/imagens/jolteon.gif" alt="jolteon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo eletrico">Electric</li>
+					</ul>
+
+					<p class="descricao">Um Pokémon sensível que facilmente fica triste ou zangado. Sempre que seu humor muda, acumula energia.
+						.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="flareon">
+					<div class="informacoes">
+						<span>Flareon</span>
+						<span>#004</span>
+					</div>
+
+					<img src="./src/imagens/flareon.gif" alt="flareon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+
+					<p class="descricao">Tem uma bolsa de chamas dentro do corpo. Depois de inalar profundamente, sopra chamas de quase 1700°C.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="psychic">
+					<div class="informacoes">
+						<span>Psychic</span>
+						<span>#005</span>
+					</div>
+
+					<img src="./src/imagens/espeon.gif" alt="espeon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo psico">Psychic</li>
+					</ul>
+
+					<p class="descricao">Seu pelo tem a aparência e a sensação de veludo. O orbe em sua testa brilha quando usa seus poderes psíquicos.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="dark">
+					<div class="informacoes">
+						<span>Umbreon</span>
+						<span>#006</span>
+					</div>
+
+					<img src="./src/imagens/umbreon.gif" alt="umbreon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo sombrio">Dark</li>
+					</ul>
+
+					<p class="descricao">Quando exposto à aura da lua, os anéis em seu corpo brilham suave e ele ganha um misterioso poder.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="leafeon">
+					<div class="informacoes">
+						<span>Leafeon</span>
+						<span>#007</span>
+					</div>
+
+					<img src="./src/imagens/leafeon.gif" alt="leafeon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo grama">Grass</li>
+					</ul>
+
+					<p class="descricao">Assim como uma planta, realiza fotossíntese. Como resultado, está sempre envolto de ar puro.</p>
+				</li>
+
+				<li class="cartao-pokemon" id="glaceon">
+					<div class="informacoes">
+						<span>Glaceon</span>
+						<span>#008</span>
+					</div>
+
+					<img src="./src/imagens/glaceon.gif" alt="glaceon" class="gif" />
+
+					<ul class="tipos">
+						<li class="tipo gelo">Ice</li>
+					</ul>
+
+					<p class="descricao">Controlando seu calor corporal, pode resfriar a atmosfera ao seu redor e criar uma revoada de pó de diamante.</p>
+				</li>
+			</ul>
+			
+		</main>
+
+		<script src="./src/js/index.js"></script>
+		
+	</body>
+</html>
